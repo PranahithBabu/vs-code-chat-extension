@@ -1,4 +1,4 @@
-# qbraid-chat-app README
+# qbraid-chat-app
 
 Qbraid Chat App is a Visual Studio Code extension that brings an interactive AI powered chat interface directly into the editor. It allows users to authenticate with an API key, select a chat model, and communicate with Qbraid's API in a conversational format.
 
