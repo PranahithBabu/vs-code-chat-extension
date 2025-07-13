@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src ${cspSource} 'unsafe-inline'; script-src ${cspSource} 'unsafe-inline'; connect-src https://api.qbraid.com;">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qbraid Chat App</title>
+  <link rel="stylesheet" href="${styleUri}">
+</head>
+<body>
+  <div id="chat"></div>
+  <div id="controls">
+    <div id="modelContainer">
+      <label for="modelInput">Choose a model:</label>
+      <select id="modelInput">
+        <option value="">Loading models...</option>
+      </select>
+    </div>
+    <div id="inputContainer">
+      <input type="text" id="messageInput" placeholder="Ask your question..." />
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+  <script>
+    const apiKey = "${apiKey}";
+  </script>
+  <script src="${scriptUri}"></script>
+</body>
+</html>
